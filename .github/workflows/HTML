@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartStudyz - Your College Student Aid</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SmartStudyz</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#deals">Deals</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero">
+    <h2>Boost Your College Success with SmartStudyz</h2>
+    <p>Get access to expert tutors, flexible study plans, and comprehensive resources to help you excel in your coursework and exams.</p>
+    <a href="#deals" class="cta-button">Get Started</a>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>SmartStudyz is a leading college student aid that provides top-notch study assistance to help you achieve academic excellence. Our team of experienced tutors are dedicated to helping college students succeed in their studies by offering personalized study plans and resources tailored to their needs.</p>
+  </section>
+  <section id="deals">
+    <h2>Deals</h2>
+    <ul>
+      <li>
+        <div class="deal-card">
+          <h3>Basic Study Plan</h3>
+          <p>$5</p>
+          <a href="#checkout" class="cta-button">Select Deal</a>
+        </div>
+      </li>
+      <li>
+        <div class="deal-card">
+          <h3>Standard Study Plan</h3>
+          <p>$10</p>
+          <a href="#checkout" class="cta-button">Select Deal</a>
+        </div>
+      </li>
+      <li>
+        <div class="deal-card">
+          <h3>Premium Study Plan</h3>
+          <p>$15</p>
+          <a href="#checkout" class="cta-button">Select Deal</a>
+        </div>
+      </li>
+      <li>
+        <div class="deal-card">
+          <h3>Deluxe Study Plan</h3>
+          <p>$20</p>
+          <a href="#checkout" class="cta-button">Select Deal</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or inquiries, please feel free to contact us using the form below or email us at info@smartstudyz.com</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+      <input type="submit" value="Submit" class="cta-button">
+    </form>
+  </section>
+  <section id="checkout">
+    <h2>Checkout</h2>
+    <p>Select your preferred study plan and complete the checkout process below:</p>
+    <form>
+      <
